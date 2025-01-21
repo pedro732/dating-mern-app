@@ -1,0 +1,43 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.card-icon {
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.card-title {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.card-content {
+    font-size: 16px;
+    color: #666;
+}
+
+.card-actions {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 16px;
+}
+
+.card-action-icon {
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    padding: 10px;
+}

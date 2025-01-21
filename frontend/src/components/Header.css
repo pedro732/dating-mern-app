@@ -1,0 +1,9 @@
+.header-toolbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-title {
+    flex-grow: 1;
+    text-align: center;
+}

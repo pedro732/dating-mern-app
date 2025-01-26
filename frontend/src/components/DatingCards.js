@@ -8,7 +8,7 @@ const DatingCards = () => {
 
     useEffect(() => {
         async function fetchData() {
-            const req = await axios.get("/api/cards");
+            const req = await axios.get("/api/dating/cards");
             setPeople(req.data);
         }
         fetchData();
@@ -20,7 +20,7 @@ const DatingCards = () => {
                 {people.map((person) => (
                     <TinderCard
                         className="swipe"
-                        key={person.name}
+                        key={person._id} // Asegúrate de usar un identificador único
                         preventSwipe={['up', 'down']}
                     >
                         <div
